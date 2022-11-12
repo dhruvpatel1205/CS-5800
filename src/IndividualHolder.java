@@ -1,4 +1,4 @@
-public class IndividualHolder extends AccountHolder {
+public class IndividualHolder extends AccountHolder implements InterfaceUtil {
     private String name;
     private String SSN;
 
@@ -21,4 +21,14 @@ public class IndividualHolder extends AccountHolder {
     public void setSSN(String SSN) {
         this.SSN = SSN;
     }
+
+    public String convertNameUpperCase(String name) {
+        System.out.println("This will uppercase the string");
+        return name;
+    }
+
+    public String covertNameUpperCase(String name) {
+        return name;
+    }
+
 }
