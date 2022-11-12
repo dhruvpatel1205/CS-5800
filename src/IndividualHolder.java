@@ -22,11 +22,7 @@ public class IndividualHolder extends AccountHolder implements InterfaceUtil {
         this.SSN = SSN;
     }
 
-    public String convertNameUpperCase(String name) {
-        System.out.println("This will uppercase the string");
-        return name;
-    }
-
+    // this will uppercase the string given name
     public String covertNameUpperCase(String name) {
         return name;
     }
